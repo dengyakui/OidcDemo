@@ -43,11 +43,13 @@ namespace OidcDemo
                 {
                     ClientId = "mvc",
                     ClientName = "MVC Client",
+                    ClientUri = "http://localhost:5001",
+                    LogoUri = "https://chocolatey.org/content/packageimages/aspnetcore-runtimepackagestore.2.1.5.png",
+                    AllowRememberConsent = true,
                     AllowedGrantTypes = GrantTypes.Implicit,
-                    RequireConsent = false,
+                    RequireConsent = true,
                     // where to redirect to after login
                     RedirectUris = {"http://localhost:5001/signin-oidc"},
-
                     // where to redirect to after logout
                     PostLogoutRedirectUris =
                     {

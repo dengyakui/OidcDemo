@@ -1,0 +1,13 @@
+﻿@{
+    ViewData["Title"] = "About";
+}
+<h2>@ViewData["Title"]</h2>
+<h3>@ViewData["Message"]</h3>
+
+<p>Use this area to provide additional information.</p>
+@model LoginViewModel
+<form action="about" method="post">
+    <input type="text" asp-for="Name" />
+    <input type="checkbox" asp-for="IsMale" />male
+    <button name="button" value="yes">yes</button>
+</form>

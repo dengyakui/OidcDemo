@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OidcDemo", "OidcDemo\OidcDe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Client", "Client\Client.csproj", "{C21F04AB-6B5B-4BFE-93BE-582A286262FC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestFormBinding", "TestFormBinding\TestFormBinding.csproj", "{4D2291AD-F2E5-4C5C-8895-EDEBC501D8F9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{C21F04AB-6B5B-4BFE-93BE-582A286262FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C21F04AB-6B5B-4BFE-93BE-582A286262FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C21F04AB-6B5B-4BFE-93BE-582A286262FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D2291AD-F2E5-4C5C-8895-EDEBC501D8F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D2291AD-F2E5-4C5C-8895-EDEBC501D8F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D2291AD-F2E5-4C5C-8895-EDEBC501D8F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D2291AD-F2E5-4C5C-8895-EDEBC501D8F9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
